@@ -1,0 +1,70 @@
+.headerWrapper {
+  border-bottom: 5px solid black;
+  padding: 0;
+  width: 100%;
+}
+
+.title {
+  margin-left: 20px;
+  padding: 0;
+}
+
+.nav {
+  position: fixed;
+  right: 20px;
+  top: 10px;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.nav ul li {
+  height: auto;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li a {
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  color: brown;
+}
+
+.logout {
+  cursor: pointer;
+}
+
+.form {
+  padding-left: 20px;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.input {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 15%;
+}
+
+.userProfile {
+  padding-left: 20px;
+}
+
+.userEmail {
+  padding-top: 10px;
+}
