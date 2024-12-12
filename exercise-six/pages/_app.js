@@ -10,7 +10,7 @@ import {
   signOut,
 } from "firebase/auth";
 const firebaseConfig = {
-  apiKey: process.env.FIREBASE_KEY,
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_KEY,
   authDomain: "exercise-six-fall2024.firebaseapp.com",
   projectId: "exercise-six-fall2024",
   storageBucket: "exercise-six-fall2024.firebasestorage.app",
